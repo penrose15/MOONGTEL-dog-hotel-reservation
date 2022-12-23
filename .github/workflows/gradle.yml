@@ -45,6 +45,8 @@ jobs:
     - name: Make zip file
       run: zip -r ./deploy.zip .
       shell: bash
+      working-directory: ./server2
+
     
     # Access Key와 Secret Access Key를 통해 권한을 확인합니다.
     # 아래 코드에 Access Key와 Secret Key를 직접 작성하지 않습니다.
