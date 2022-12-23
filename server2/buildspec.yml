@@ -19,3 +19,7 @@ artifacts:
     - server2/scripts/**
     - server2/appspec.yml
   discard-paths: yes
+
+cache:
+  paths:
+    - '/root/.gradle/caches/**/*'
