@@ -12,10 +12,10 @@ phases:
       - ./gradlew build
   post_build:
     commands:
-      - echo $(basename ./server2/build/libs/*.jar)
+      - echo $(basename ./server2/build/libs/server-0.0.1-SNAPSHOT.jar)
 artifacts:
   files:
-    - server2/build/libs/*.jar
+    - server2/build/libs/server-0.0.1-SNAPSHOT.jar
     - server2/scripts/**
     - server2/appspec.yml
   discard-paths: yes
