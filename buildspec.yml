@@ -8,7 +8,7 @@ phases:
     commands:
       - echo Build Starting on `date`
       - cd server2
-      - chmod 700 ./gradlew
+      - chmod 700 ./server2/gradlew
       - ./gradlew build
   post_build:
     commands:

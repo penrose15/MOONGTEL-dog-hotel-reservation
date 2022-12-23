@@ -38,7 +38,6 @@ jobs:
     
     - name: Build with Gradle
       run: ./gradlew build
-      working-directory: ./server2
 
 
     # build한 후 프로젝트를 압축합니다.
