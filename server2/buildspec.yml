@@ -8,7 +8,7 @@ phases:
     commands:
       - echo Build Starting on `date`
       - cd server2
-      - chmod 700 ./server2/gradlew
+      - chmod 700 ./gradlew
       - ./gradlew build
   post_build:
     commands:
@@ -17,7 +17,7 @@ artifacts:
   files:
     - server2/build/libs/server-0.0.1-SNAPSHOT.jar
     - server2/scripts/**
-    - server2/appspec.yml
+    - appspec.yml
   discard-paths: yes
 
 cache:
