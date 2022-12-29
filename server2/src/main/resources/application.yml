@@ -43,8 +43,8 @@ logging:
 cloud:
   aws:
     credentials:
-      accessKey: { AWS ACCESS KEY }  # AWS IAM AccessKey 적기
-      secretKey: { AWS SECRET KEY } # AWS IAM SecretKey 적기
+      accessKey: {AWS ACCESS KEY}  # AWS IAM AccessKey 적기
+      secretKey: {AWS SECRET KEY} # AWS IAM SecretKey 적기
     s3:
       bucket: { bucket name }
     region:

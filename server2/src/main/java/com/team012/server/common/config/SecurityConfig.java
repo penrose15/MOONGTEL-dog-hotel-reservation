@@ -3,6 +3,7 @@ package com.team012.server.common.config;
 import com.team012.server.common.config.filter.JwtAuthenticationFilter;
 import com.team012.server.common.config.filter.JwtAuthorizationFilter;
 import com.team012.server.users.repository.UsersRepository;
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +17,7 @@ import org.springframework.web.filter.CorsFilter;
 
 @Configuration
 @EnableWebSecurity
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class SecurityConfig {
 
     private final CorsFilter corsFilter;
