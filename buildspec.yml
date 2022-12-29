@@ -15,8 +15,9 @@ phases:
 artifacts:
   files:
     - server2/build/libs/server-0.0.1-SNAPSHOT.jar
-    - scripts/deploy.sh
     - appspec.yml
+    - scripts/deploy.sh
+
   discard-paths: yes
 
 cache:
