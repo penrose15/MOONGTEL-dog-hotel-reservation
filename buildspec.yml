@@ -7,12 +7,11 @@ phases:
   build:
     commands:
       - echo Build Starting on `date`
-      - cd server2
-      - chmod 700 ./gradlew
-      - ./gradlew build
+      - chmod 700 ./server2/gradlew
+      - ./server2/gradlew build
   post_build:
     commands:
-      - echo $(basename ./server2/build/libs/server-0.0.1-SNAPSHOT.jar)
+      - echo $(basename ./build/libs/server-0.0.1-SNAPSHOT.jar)
 artifacts:
   files:
     - server2/build/libs/server-0.0.1-SNAPSHOT.jar
