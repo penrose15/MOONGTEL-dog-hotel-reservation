@@ -1,3 +1,4 @@
+#!/bin/bash -l
 
 BUILD_JAR=$(ls /home/ubuntu/jenkins/server2/build/libs/server-0.0.1-SNAPSHOT.jar)
 JAR_NAME=$(basename $BUILD_JAR)
