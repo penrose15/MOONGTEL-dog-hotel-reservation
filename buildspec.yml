@@ -1,25 +1,25 @@
-version: 0.2
-
-phases:
-  install:
-    runtime-versions:
-      java: corretto11
-  build:
-    commands:
-      - echo Build Starting on `date`
-      - chmod 700 ./server2/gradlew
-      - ./server2/gradlew build
-  post_build:
-    commands:
-      - echo $(basename ./build/libs/server-0.0.1-SNAPSHOT.jar)
-artifacts:
-  files:
-    - server2/build/libs/server-0.0.1-SNAPSHOT.jar
-    - appspec.yml
-    - scripts/deploy.sh
-
-  discard-paths: yes
-
-cache:
-  paths:
-    - '/root/.gradle/caches/**/*'
+#version: 0.2
+#
+#phases:
+#  install:
+#    runtime-versions:
+#      java: corretto11
+#  build:
+#    commands:
+#      - echo Build Starting on `date`
+#      - chmod 700 ./server2/gradlew
+#      - ./server2/gradlew build
+#  post_build:
+#    commands:
+#      - echo $(basename ./build/libs/server-0.0.1-SNAPSHOT.jar)
+#artifacts:
+#  files:
+#    - server2/build/libs/server-0.0.1-SNAPSHOT.jar
+#    - appspec.yml
+#    - scripts/deploy.sh
+#
+#  discard-paths: yes
+#
+#cache:
+#  paths:
+#    - '/root/.gradle/caches/**/*'
