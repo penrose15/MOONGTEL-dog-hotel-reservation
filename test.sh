@@ -14,4 +14,4 @@ echo ">> go jar"
 cd ./build/libs
 
 JAR_NAME=$(ls|grep '0.0.1' | tail -n 1)
-echo "jar name : $JAR_NAME"
+echo "jar name : $JAR_NAME" /dev/null 2>&1
