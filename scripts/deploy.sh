@@ -1,4 +1,7 @@
 #!/bin/bash
+
+chmod +x /home/ubuntu/action/server2/build
+
 BUILD_JAR=$(ls /home/ubuntu/action/server2/build/libs/server-0.0.1-SNAPSHOT.jar)
 JAR_NAME=$(basename $BUILD_JAR)
 
