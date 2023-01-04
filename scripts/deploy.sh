@@ -6,7 +6,7 @@ JAR_NAME=$(basename $BUILD_JAR)
 echo "chmod +x /home/jenkins"
 echo "hello"
 
-sudo chmod +x /home/jenkins
+sudo chmod 777 /home/jenkins
 
 
 echo "> 현재 시간: $(date)" >> /home/ubuntu/jenkins/deploy.log
