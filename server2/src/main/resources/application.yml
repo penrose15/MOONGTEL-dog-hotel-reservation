@@ -1,10 +1,9 @@
 spring:
   datasource:
-    hikari:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: {AWS RDS Endpoint}
-      username: {RDS Mysql Admin id}
-      password: {RDS Mysql Admin password}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: {AWS RDS Endpoint}
+    username: {RDS Mysql Admin id}
+    password: {RDS Mysql Admin password}
 #config.domain: {AWS S3 EndPoint}
 
   jpa:
@@ -43,10 +42,10 @@ logging:
 cloud:
   aws:
     credentials:
-      accessKey: {AWS ACCESS KEY}  # AWS IAM AccessKey 적기
-      secretKey: {AWS SECRET KEY} # AWS IAM SecretKey 적기
+      accessKey: { AWS accessKey }  # AWS IAM AccessKey 적기
+      secretKey: { AWS secretKey } # AWS IAM SecretKey 적기
     s3:
-      bucket: { bucket name }
+      bucket: main012
     region:
       static: "ap-northeast-2"
     stack:
