@@ -22,32 +22,32 @@ public class SecurityConfig{
     private final CorsFilter corsFilter;
     private final UsersRepository usersRepository;
 
-//    @Bean
-//    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-//
-//        http.csrf().disable();
-//        http.headers().frameOptions().disable();
-//        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-//                .and()
-//                .httpBasic()
-//                .disable()
-//                .apply(new CustomDsl())
-//                .and()
-//                .authorizeRequests()
-//                .antMatchers("/v1/company/**")
-//                .access("hasRole('ROLE_COMPANY') or hasRole('ROLE_ADMIN')")
-//                .antMatchers("/v1/customer/**")
-//                .access("hasRole('ROLE_CUSTOMER') or hasRole('ROLE_ADMIN')")
-//                .anyRequest().permitAll();
-//
-//        http.formLogin()
-//                .loginPage("/v1/users/login")
-//                .loginProcessingUrl("/login")
-//                .defaultSuccessUrl("/");
-//
-//
-//        return http.build();
-//    }
+    @Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+
+        http.csrf().disable();
+        http.headers().frameOptions().disable();
+        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                .and()
+                .httpBasic()
+                .disable()
+                .apply(new CustomDsl())
+                .and()
+                .authorizeRequests()
+                .antMatchers("/v1/company/**")
+                .access("hasRole('ROLE_COMPANY') or hasRole('ROLE_ADMIN')")
+                .antMatchers("/v1/customer/**")
+                .access("hasRole('ROLE_CUSTOMER') or hasRole('ROLE_ADMIN')")
+                .anyRequest().permitAll();
+
+        http.formLogin()
+                .loginPage("/v1/users/login")
+                .loginProcessingUrl("/login")
+                .defaultSuccessUrl("/");
+
+
+        return http.build();
+    }
 
 
     public class CustomDsl extends AbstractHttpConfigurer<CustomDsl, HttpSecurity> {
