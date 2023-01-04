@@ -4,3 +4,7 @@ aws:
     prefix: /seb-39-main-012
     name: hsj # 리소스 이름을 작성합니다.
     profileSeparator: _
+cloud:
+  aws:
+    region:
+      static: "ap-northeast-2"
