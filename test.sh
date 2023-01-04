@@ -1,6 +1,4 @@
-#!/bin/bash -l
-
-BUILD_JAR=$(ls /home/ubuntu/jenkins/server2/build/libs/server-0.0.1-SNAPSHOT.jar)
+BUILD_JAR=$(ls /home/ubuntu/jenkins/server-0.0.1-SNAPSHOT.jar)
 JAR_NAME=$(basename $BUILD_JAR)
 
 echo "> 현재 시간: $(date)" >> /home/ubuntu/jenkins/deploy.log
@@ -25,5 +23,6 @@ fi
 
 
 DEPLOY_JAR=$DEPLOY_PATH$JAR_NAME
-echo "> DEPLOY_JAR 배포"    >> /home/ubuntu/jenkins/deploy.log
-sudo nohup java -jar $DEPLOY_JAR >> /home/jenkins/deploy.log 2>/home/ubuntu/jenkins/deploy_err.log &
+echo "deploy project"
+
+nohup java -jar $DEPLOY_PATH$JAR_NAME >> /home/ubuntu/jenkins/deploy.log 2>&1 &
