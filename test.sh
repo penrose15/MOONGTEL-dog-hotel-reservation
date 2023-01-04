@@ -24,5 +24,5 @@ fi
 
 DEPLOY_JAR=$DEPLOY_PATH$JAR_NAME
 echo "deploy project"
-
-nohup java -jar /home/ubuntu/jenkins/server-0.0.1-SNAPSHOT.jar >> /home/ubuntu/jenkins/deploy.log 2>&1 &
+echo pwd >>home/ubuntu/jenkins/deploy.log
+nohup java -jar server-0.0.1-SNAPSHOT.jar >> /home/ubuntu/jenkins/deploy.log 2>&1 &
