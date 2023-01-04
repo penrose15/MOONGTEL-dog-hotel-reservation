@@ -4,6 +4,7 @@ BUILD_JAR=$(ls /home/ubuntu/jenkins/server2/build/libs/server-0.0.1-SNAPSHOT.jar
 JAR_NAME=$(basename $BUILD_JAR)
 
 echo "chmod +x /home/jenkins"
+echo "hello"
 
 sudo chmod +x /home/jenkins
 
