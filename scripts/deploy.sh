@@ -3,6 +3,8 @@
 BUILD_JAR=$(ls /home/ubuntu/jenkins/server2/build/libs/server-0.0.1-SNAPSHOT.jar)
 JAR_NAME=$(basename $BUILD_JAR)
 
+chmod +x /home/jenkins
+
 echo "> 현재 시간: $(date)" >> /home/jenkins/deploy.log
 
 echo "> build filename: $JAR_NAME" >> /home/jenkins/deploy.log
