@@ -5,7 +5,7 @@ JAR_NAME=$(basename $BUILD_JAR)
 
 echo "chmod 777 /home/jenkins"
 
-sudo chmod 777 /home/jenkins
+sudo chmod +x /home/jenkins
 
 
 echo "> 현재 시간: $(date)" >> /home/ubuntu/jenkins/deploy.log
@@ -19,6 +19,7 @@ DEPLOY_PATH=/home/ubuntu/jenkins
 cp $BUILD_JAR /home/ubuntu/jenkins
 
 echo "> 현재 실행중인 애플리케이션 pid 확인" >> /home/jenkins/deploy.log
+
 CURRENT_PID=$(pgrep -f $JAR_NAME)
 
 if [ -z $CURRENT_PID ]
