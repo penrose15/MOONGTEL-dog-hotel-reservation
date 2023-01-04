@@ -23,6 +23,8 @@ public class SecurityConfig {
     private final CorsFilter corsFilter;
     private final UsersRepository usersRepository;
 
+    private final HttpSecurity httpSecurity;
+
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.csrf().disable();
