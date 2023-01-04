@@ -5,6 +5,7 @@ import com.auth0.jwt.algorithms.Algorithm;
 import com.team012.server.common.config.userDetails.PrincipalDetails;
 import com.team012.server.users.entity.Users;
 import com.team012.server.users.repository.UsersRepository;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

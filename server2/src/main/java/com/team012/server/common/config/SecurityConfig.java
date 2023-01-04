@@ -14,16 +14,18 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.web.filter.CorsFilter;
 
-
+@Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
 public class SecurityConfig{
 
     private final CorsFilter corsFilter;
     private final UsersRepository usersRepository;
+    private final HttpSecurity http;
 
     @Bean
-    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+    public SecurityFilterChain filterChain() throws Exception {
+
         http.csrf().disable();
         http.headers().frameOptions().disable();
         http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
