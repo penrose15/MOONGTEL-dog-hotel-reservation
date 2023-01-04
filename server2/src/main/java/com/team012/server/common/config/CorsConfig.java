@@ -23,7 +23,7 @@ public class CorsConfig {
         config.setAllowedOrigins(
                 Arrays.asList(
                 "http://localhost:3000",
-                "http://ec2-3-34-50-0.ap-northeast-2.compute.amazonaws.com:8080",
+                "http://ec2-3-37-221-81.ap-northeast-2.compute.amazonaws.com",
                 "https://master.drmie9omao0gi.amplifyapp.com",
                 "https://moongtel.vercel.app/",
                 "http://localhost:8080/h2")
