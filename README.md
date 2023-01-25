@@ -37,7 +37,7 @@
 <br>
 ## 🌟 프로젝트 구조
 
-![스크린샷 2022-10-11 오전 9 25 46](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dcc6ecad-ef89-49d2-bc4c-9442b261bab2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230125T073621Z&X-Amz-Expires=86400&X-Amz-Signature=213059fca2edd15545008d6fccd1d16be436f104503884602ff88728a6aadb30&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![프로젝트 구조 (2)](https://user-images.githubusercontent.com/96187152/214510782-8b43858d-61c6-4d21-ad9f-ba83f16af671.jpg)
 
 <br>
 
