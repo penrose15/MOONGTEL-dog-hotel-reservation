@@ -24,7 +24,8 @@
 <br>
 ## 🌟 BE 기술 스택
 
-![스크린샷 2022-10-11 오전 9 25 46](https://www.figma.com/file/ljJIjkNnwYTHPutO9cpt6b/Untitled?node-id=2%3A122&t=2pUh3gBextIFdaCA-4)
+![BE 스택](https://user-images.githubusercontent.com/96187152/214508878-38ffa593-71f2-4907-87fd-425bff6fd838.jpg)
+
 <br>
 
 ## 🌟 배포
