@@ -16,12 +16,14 @@
 #### 주인님은 놀러가시개! ⛱ 나는 호텔에서 쉬개! 🐕
 
 <br>
+
 ## 🌟 FE 기술 스택
 
 <div align="left" style="display:flex;">
     <img src="https://user-images.githubusercontent.com/65848374/190868327-d98f8151-0fff-4dba-b220-c34f041aedb7.jpg" width="600" alt="logo"/>
 </div>
 <br>
+
 ## 🌟 BE 기술 스택
 <div align="left" style="display:flex;">
     <img src="https://user-images.githubusercontent.com/96187152/214508878-38ffa593-71f2-4907-87fd-425bff6fd838.jpg" width="600" alt="logo"/>
@@ -35,9 +37,10 @@
 </div>
 
 <br>
+
 ## 🌟 프로젝트 구조
 
-![프로젝트 구조 (2)](https://user-images.githubusercontent.com/96187152/214510782-8b43858d-61c6-4d21-ad9f-ba83f16af671.jpg)
+![프로젝트 구조 (4)](https://user-images.githubusercontent.com/96187152/214511450-2b76a84c-c1bc-4a9d-bb39-3d6ebeae8a9a.jpg)
 
 <br>
 
