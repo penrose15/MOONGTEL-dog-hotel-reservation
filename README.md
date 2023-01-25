@@ -30,7 +30,7 @@
 <br>
 
 ## 🌟 배포
-![스크린샷 2022-10-11 오전 9 25 22](https://user-images.githubusercontent.com/81212210/194971782-078d8f96-a0a2-4aed-aa9f-71cbfe988c2a.png)
+![배포](https://user-images.githubusercontent.com/96187152/214510070-f5e7c0d3-a2c3-4636-a679-d4a0b96d9123.jpg)
 
 <br>
 ## 🌟 프로젝트 구조
