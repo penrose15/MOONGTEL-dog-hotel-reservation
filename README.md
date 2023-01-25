@@ -30,7 +30,9 @@
 <br>
 
 ## 🌟 배포
-![배포](https://user-images.githubusercontent.com/96187152/214510070-f5e7c0d3-a2c3-4636-a679-d4a0b96d9123.jpg)
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/214510070-f5e7c0d3-a2c3-4636-a679-d4a0b96d9123.jpg" width="600" alt="logo"/>
+</div>
 
 <br>
 ## 🌟 프로젝트 구조
