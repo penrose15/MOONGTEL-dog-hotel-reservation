@@ -23,8 +23,9 @@
 </div>
 <br>
 ## 🌟 BE 기술 스택
-
-![BE 스택](https://user-images.githubusercontent.com/96187152/214508878-38ffa593-71f2-4907-87fd-425bff6fd838.jpg)
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/214508878-38ffa593-71f2-4907-87fd-425bff6fd838.jpg" width="600" alt="logo"/>
+</div>
 
 <br>
 
