@@ -24,17 +24,10 @@
 
 <br>
 
-## 🌟 배포
-![스크린샷 2022-10-11 오전 9 25 22](https://user-images.githubusercontent.com/81212210/194971782-078d8f96-a0a2-4aed-aa9f-71cbfe988c2a.png)
-
-<br>
 
 ## 🌟 ERD
+![스크린샷](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9335b92f-35a5-4d5b-acae-13eb459d9eb6/Untitled_%2811%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230125T073918Z&X-Amz-Expires=86400&X-Amz-Signature=37e8be970e34287b63743f08c194bb670b47cb6ab183a990b0ae5df220bc358a&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled%2520%2811%29.png%22&x-id=GetObject)
 
-<br>
-
-## 🌟 서비스 아키텍쳐
-![스크린샷 2022-10-11 오전 9 27 16](https://user-images.githubusercontent.com/81212210/194971943-fb57d803-3723-4711-9011-e742728679d1.png)
 
 <br>
 
