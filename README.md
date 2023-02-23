@@ -39,14 +39,16 @@
 <br>
 
 ## 🌟 프로젝트 구조
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/214511450-2b76a84c-c1bc-4a9d-bb39-3d6ebeae8a9a.jpg" width="600" alt="logo"/>
+</div>
 
-![프로젝트 구조 (4)](https://user-images.githubusercontent.com/96187152/214511450-2b76a84c-c1bc-4a9d-bb39-3d6ebeae8a9a.jpg)
 
 <br>
 
 
 ## 🌟 ERD
-![스크린샷](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9335b92f-35a5-4d5b-acae-13eb459d9eb6/Untitled_%2811%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230125T073918Z&X-Amz-Expires=86400&X-Amz-Signature=37e8be970e34287b63743f08c194bb670b47cb6ab183a990b0ae5df220bc358a&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled%2520%2811%29.png%22&x-id=GetObject)
+![스크린샷](https://user-images.githubusercontent.com/96187152/220821348-d4a84e9e-21cc-469e-ab3a-65759c3c4a88.png)
 
 
 <br>
