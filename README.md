@@ -54,7 +54,7 @@
 ## 🌟 프로젝트 문서
 - 📖 요구사항 정의서 [[바로가기]](https://seongjuhong.notion.site/c44fb9960be544ea857b769988af09e1?v=90bcdaef0fbc447e994db97568a0667f)
 
-- 🖌 Figma 화면 설계서 [[바로가기]](https://www.figma.com/file/GDpUcASmYwJIKkhemzlIqa/Untitled?node-id=0%3A1&t=qiGeepuxjoHQvYcs-1)
+- 🖌 Figma 화면 설계서 [[바로가기]](https://www.figma.com/file/GDpUcASmYwJIKkhemzlIqa/moongtel-%ED%99%94%EB%A9%B4-%EC%84%A4%EA%B3%84%EC%84%9C?node-id=0%3A1&t=Dev2GSdEIeeVXVel-1)
 
 - 📣 서비스 기능시연 + 발표자료 [[바로가기]](https://docs.google.com/presentation/d/1biPMaqbCm-69d4dGTeGeaycWu2-4iRlS6gWRonRijG0/edit?usp=sharing)
 
