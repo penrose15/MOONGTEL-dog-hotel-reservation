@@ -48,7 +48,10 @@
 
 
 ## 🌟 ERD
-![스크린샷](https://user-images.githubusercontent.com/96187152/220821348-d4a84e9e-21cc-469e-ab3a-65759c3c4a88.png)
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/220821348-d4a84e9e-21cc-469e-ab3a-65759c3c4a88.png" width="600" alt="logo"/>
+</div>
+
 
 
 <br>
