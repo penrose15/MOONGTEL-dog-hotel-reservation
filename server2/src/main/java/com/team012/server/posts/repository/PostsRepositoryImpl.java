@@ -108,7 +108,7 @@ public class PostsRepositoryImpl implements PostsRepositoryCustom{
         List<Posts> postsList = queryFactory
                 .select(posts)
                 .from(posts)
-                .join(postsHashTags)
+                .rightJoin(postsHashTags)
                 .on(posts.id.eq(postsHashTags.posts.id))
                 .where(postsHashTags.hashTag.tag.eq(hashTag))
                 .offset(pageable.getOffset())
@@ -116,7 +116,7 @@ public class PostsRepositoryImpl implements PostsRepositoryCustom{
                 .fetch();
         JPQLQuery<Posts> count = queryFactory
                 .selectFrom(posts)
-                .join(postsHashTags)
+                .rightJoin(postsHashTags)
                 .on(posts.id.eq(postsHashTags.posts.id))
                 .where(QHashTag.hashTag.tag.eq(hashTag));
 

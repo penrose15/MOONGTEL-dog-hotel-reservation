@@ -31,7 +31,8 @@ public class PostsImgService {
 
     @Transactional(readOnly = true)
     public PostsImg findById(Long imgId) {
-        return imgRepository.findById(imgId).orElseThrow(()-> new NoSuchElementException("img not found"));
+        return imgRepository.findById(imgId)
+                .orElseThrow(()-> new NoSuchElementException("img not found"));
     }
 
     public List<PostsImg> findByPostsId(Long postsId) {

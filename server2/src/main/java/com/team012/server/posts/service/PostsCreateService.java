@@ -42,11 +42,6 @@ public class PostsCreateService {
         savePostsHashTags(postsCreateDto, posts);
         savePostsServiceTag(postsCreateDto, posts);
 
-        Long postsId = posts.getId();
-
-        List<Room> roomList = saveRoom(postsCreateDto, postsId);
-
-//        return postsCombineService.combine(companyId, posts, roomList, postsHashTags, postsServiceTags);
     }
 
     private void savePostsHashTags(PostsCreateDto postsCreateDto, Posts posts) {

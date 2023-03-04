@@ -18,7 +18,6 @@ public class DogCard {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Lob
     @Column(name = "photo_img_url")
     private String photoImgUrl;
 
