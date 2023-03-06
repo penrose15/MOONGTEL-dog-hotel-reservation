@@ -21,7 +21,6 @@ public class ReviewImg {
     private String fileName;
 
     @Column(name = "img_url")
-    @Lob
     private String imgUrl;
 
     @ManyToOne
