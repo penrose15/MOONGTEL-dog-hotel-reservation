@@ -1,18 +1,13 @@
 package com.team012.server.common.aws.service;
 
-import com.amazonaws.auth.AWSCredentials;
-import com.amazonaws.auth.AWSStaticCredentialsProvider;
-import com.amazonaws.auth.BasicAWSCredentials;
-import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3Client;
-import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.DeleteObjectRequest;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.amazonaws.util.IOUtils;
 import com.team012.server.posts.entity.Posts;
-import com.team012.server.posts.img.entity.PostsImg;
+import com.team012.server.postimage.entity.PostsImg;
 import com.team012.server.review.entity.ReviewImg;
 import com.team012.server.common.aws.utils.CommonUtils;
 import com.team012.server.review.repository.ReviewImgRepository;
@@ -25,7 +20,6 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.annotation.PostConstruct;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -191,7 +185,6 @@ public class AwsS3Service {
 
 
     //s3에 업로드된 파일 삭제 메서드
-    @Transactional(propagation = Propagation.REQUIRED)
     public void deleteFile(List<PostsImg> imgList) {
         List<String> fileNameList = imgList.stream().map(PostsImg::getFileName).collect(Collectors.toList());
         for (String file : fileNameList) {

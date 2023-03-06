@@ -1,8 +1,8 @@
-package com.team012.server.posts.img.converter;
+package com.team012.server.postimage.converter;
 
 import com.team012.server.common.utils.converter.Converter;
-import com.team012.server.posts.img.dto.ImageDto;
-import com.team012.server.posts.img.entity.PostsImg;
+import com.team012.server.postimage.dto.ImageDto;
+import com.team012.server.postimage.entity.PostsImg;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

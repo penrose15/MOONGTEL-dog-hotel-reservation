@@ -1,6 +1,6 @@
 package com.team012.server.users.service;
 
-import com.team012.server.common.config.userDetails.PrincipalDetails;
+import com.team012.server.common.config.userdetails.PrincipalDetails;
 import com.team012.server.common.exception.BusinessLogicException;
 import com.team012.server.common.exception.ExceptionCode;
 import com.team012.server.common.utils.constant.Constant;

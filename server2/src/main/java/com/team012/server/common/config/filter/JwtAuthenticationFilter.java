@@ -4,7 +4,7 @@ package com.team012.server.common.config.filter;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.team012.server.common.config.userDetails.PrincipalDetails;
+import com.team012.server.common.config.userdetails.PrincipalDetails;
 import com.team012.server.users.entity.Users;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

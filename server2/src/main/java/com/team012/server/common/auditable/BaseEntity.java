@@ -1,4 +1,4 @@
-package com.team012.server.common.baseEntity;
+package com.team012.server.common.auditable;
 
 
 import lombok.Getter;

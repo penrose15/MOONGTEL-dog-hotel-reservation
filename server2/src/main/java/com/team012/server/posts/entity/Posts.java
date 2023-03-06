@@ -4,9 +4,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.team012.server.posts.Tag.HashTag.entity.PostsHashTags;
 import com.team012.server.posts.Tag.ServiceTag.entity.PostsServiceTag;
-import com.team012.server.posts.img.entity.PostsImg;
+import com.team012.server.postimage.entity.PostsImg;
 import lombok.*;
-import org.hibernate.annotations.BatchSize;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;

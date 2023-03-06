@@ -4,7 +4,7 @@ import com.team012.server.review.dto.ReviewPostsResponse;
 import com.team012.server.room.dto.RoomDto;
 import com.team012.server.posts.Tag.HashTag.dto.HashTagResponseDto;
 import com.team012.server.posts.Tag.ServiceTag.dto.ServiceResponseDto;
-import com.team012.server.posts.img.dto.ImageDto;
+import com.team012.server.postimage.dto.ImageDto;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

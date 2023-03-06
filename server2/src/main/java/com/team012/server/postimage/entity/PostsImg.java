@@ -1,10 +1,8 @@
-package com.team012.server.posts.img.entity;
+package com.team012.server.postimage.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.team012.server.posts.entity.Posts;
 import lombok.*;
-import org.hibernate.annotations.DynamicUpdate;
-import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 

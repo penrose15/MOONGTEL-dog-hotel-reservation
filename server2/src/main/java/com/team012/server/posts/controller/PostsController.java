@@ -1,22 +1,17 @@
 package com.team012.server.posts.controller;
 
-import com.team012.server.common.config.userDetails.PrincipalDetails;
+import com.team012.server.common.config.userdetails.PrincipalDetails;
 import com.team012.server.company.entity.Company;
 
 import com.team012.server.room.service.RoomService;
 
 import com.team012.server.company.service.CompanyService;
 import com.team012.server.posts.dto.PostsCreateDto;
-import com.team012.server.posts.dto.PostsResponseDto;
 import com.team012.server.posts.dto.PostsUpdateDto;
 
-import com.team012.server.posts.img.dto.ImgUpdateDto;
-import com.team012.server.posts.service.PostsCombineService;
 import com.team012.server.posts.service.PostsCreateService;
 import com.team012.server.posts.service.PostsService;
 import com.team012.server.posts.service.PostsUpdateService;
-import com.team012.server.review.service.ReviewService;
-import com.team012.server.room.service.RoomService;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -28,7 +23,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
-import java.util.ArrayList;
 import java.util.List;
 
 @RequiredArgsConstructor

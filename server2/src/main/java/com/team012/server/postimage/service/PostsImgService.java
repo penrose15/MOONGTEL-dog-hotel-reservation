@@ -1,9 +1,8 @@
-package com.team012.server.posts.img.service;
+package com.team012.server.postimage.service;
 
-import com.team012.server.posts.entity.Posts;
-import com.team012.server.posts.img.entity.PostsImg;
-import com.team012.server.posts.img.repository.PostsImgJDBCRepository;
-import com.team012.server.posts.img.repository.PostsImgRepository;
+import com.team012.server.postimage.entity.PostsImg;
+import com.team012.server.postimage.repository.PostsImgJDBCRepository;
+import com.team012.server.postimage.repository.PostsImgRepository;
 import com.team012.server.common.aws.service.AwsS3Service;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

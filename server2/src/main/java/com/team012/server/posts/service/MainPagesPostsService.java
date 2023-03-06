@@ -2,8 +2,8 @@ package com.team012.server.posts.service;
 
 import com.team012.server.posts.dto.PostsResponseListDto;
 import com.team012.server.posts.entity.Posts;
-import com.team012.server.posts.img.converter.PostsImgConverter;
-import com.team012.server.posts.img.dto.ImageDto;
+import com.team012.server.postimage.converter.PostsImgConverter;
+import com.team012.server.postimage.dto.ImageDto;
 import com.team012.server.posts.repository.RoomPriceDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

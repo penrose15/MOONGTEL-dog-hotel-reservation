@@ -1,7 +1,7 @@
 package com.team012.server.review.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.team012.server.common.baseEntity.BaseEntity;
+import com.team012.server.common.auditable.BaseEntity;
 import lombok.*;
 
 import javax.persistence.*;

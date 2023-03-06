@@ -1,6 +1,6 @@
 package com.team012.server.users.controller;
 
-import com.team012.server.common.config.userDetails.PrincipalDetails;
+import com.team012.server.common.config.userdetails.PrincipalDetails;
 import com.team012.server.review.dto.ReviewInfoDto;
 import com.team012.server.users.dto.CustomerProfileViewResponseDto;
 import com.team012.server.users.entity.Users;

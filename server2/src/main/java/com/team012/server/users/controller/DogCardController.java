@@ -1,6 +1,6 @@
 package com.team012.server.users.controller;
 
-import com.team012.server.common.config.userDetails.PrincipalDetails;
+import com.team012.server.common.config.userdetails.PrincipalDetails;
 import com.team012.server.common.response.SingleResponseDto;
 import com.team012.server.users.dto.DogCardCreateDto;
 import com.team012.server.users.dto.DogCardResponseDto;

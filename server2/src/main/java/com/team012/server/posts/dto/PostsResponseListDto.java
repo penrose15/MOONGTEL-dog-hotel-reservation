@@ -1,6 +1,6 @@
 package com.team012.server.posts.dto;
 
-import com.team012.server.posts.img.dto.ImageDto;
+import com.team012.server.postimage.dto.ImageDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

@@ -1,6 +1,6 @@
 package com.team012.server.reservation.service;
 
-import com.team012.server.common.config.userDetails.PrincipalDetails;
+import com.team012.server.common.config.userdetails.PrincipalDetails;
 import com.team012.server.company.entity.Company;
 import com.team012.server.company.service.CompanyService;
 import com.team012.server.reservation.dto.TotalReservationDto;

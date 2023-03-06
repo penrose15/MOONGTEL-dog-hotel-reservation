@@ -1,8 +1,7 @@
 package com.team012.server.review.controller;
 
-import com.team012.server.common.config.userDetails.PrincipalDetails;
+import com.team012.server.common.config.userdetails.PrincipalDetails;
 import com.team012.server.common.exception.ExceptionCode;
-import com.team012.server.posts.entity.PostsAvgScore;
 import com.team012.server.posts.service.PostsAvgScoreService;
 import com.team012.server.review.dto.ReviewCreateRequestDto;
 import com.team012.server.review.dto.ReviewPatchRequestDto;

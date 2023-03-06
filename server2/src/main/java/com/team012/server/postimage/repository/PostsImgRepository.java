@@ -1,6 +1,6 @@
-package com.team012.server.posts.img.repository;
+package com.team012.server.postimage.repository;
 
-import com.team012.server.posts.img.entity.PostsImg;
+import com.team012.server.postimage.entity.PostsImg;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

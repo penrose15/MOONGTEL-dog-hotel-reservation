@@ -3,7 +3,7 @@ package com.team012.server.reservation.controller;
 import com.team012.server.common.exception.BusinessLogicException;
 import com.team012.server.common.exception.ExceptionCode;
 import com.team012.server.reservation.entity.Reservation;
-import com.team012.server.common.config.userDetails.PrincipalDetails;
+import com.team012.server.common.config.userdetails.PrincipalDetails;
 import com.team012.server.common.response.MultiResponseDto;
 import com.team012.server.company.service.CompanyService;
 import com.team012.server.reservation.dto.ReservationResponseDto;

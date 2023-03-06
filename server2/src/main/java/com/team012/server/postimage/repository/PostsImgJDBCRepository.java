@@ -1,9 +1,8 @@
-package com.team012.server.posts.img.repository;
+package com.team012.server.postimage.repository;
 
 
 import com.team012.server.common.utils.JDBC.JDBCRepository;
-import com.team012.server.posts.img.entity.PostsImg;
-import lombok.RequiredArgsConstructor;
+import com.team012.server.postimage.entity.PostsImg;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;

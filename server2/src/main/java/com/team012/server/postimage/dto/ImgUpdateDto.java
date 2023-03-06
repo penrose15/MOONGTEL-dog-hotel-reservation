@@ -1,4 +1,4 @@
-package com.team012.server.posts.img.dto;
+package com.team012.server.postimage.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

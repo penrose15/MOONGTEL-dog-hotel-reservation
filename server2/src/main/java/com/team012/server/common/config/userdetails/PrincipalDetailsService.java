@@ -1,4 +1,4 @@
-package com.team012.server.common.config.userDetails;
+package com.team012.server.common.config.userdetails;
 
 import com.team012.server.users.entity.Users;
 import com.team012.server.users.repository.UsersRepository;

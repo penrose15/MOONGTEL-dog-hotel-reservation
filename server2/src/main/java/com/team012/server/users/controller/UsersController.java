@@ -4,7 +4,7 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.team012.server.common.aws.service.AwsS3Service;
 import com.team012.server.common.config.filter.JwtProperties;
-import com.team012.server.common.config.userDetails.PrincipalDetails;
+import com.team012.server.common.config.userdetails.PrincipalDetails;
 import com.team012.server.common.utils.constant.Constant;
 import com.team012.server.users.dto.*;
 import com.team012.server.users.entity.Users;
