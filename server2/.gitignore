@@ -39,4 +39,8 @@ out/
 ### DS_Store ###
 .DS_Store
 
-**/src/main/resources/**
+**/src/main/resources/application.yml
+**/src/main/resources/bootstrap.yml
+**/src/main/resources/keystone1.p12
+**/src/main/resources/response.txt
+**/src/main/resources/test.txt
