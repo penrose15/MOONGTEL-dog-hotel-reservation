@@ -17,7 +17,7 @@
 
 <br>
 
-## 🛠 사용 기술
+## 🌟 사용 기술
 
 | Front-End | Back-End | DataBase | DevOps | Tool |
 | --- | --- | --- | --- | --- |
