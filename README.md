@@ -71,14 +71,22 @@ ghksals09041@gmail.com|suji.sujeongji@gmail.com|hsj99215@gmail.com|moodeary@gmai
 <div align="left" style="display:flex;">
     <img src="https://user-images.githubusercontent.com/96187152/225938078-002eaffe-4623-49c5-9d65-39aad824858a.gif" width="600" alt="logo"/>
 </div>
-
+<br>
 ✅ [2] 강아지 카드 등록/수정/삭제 : 회원의 강아지에 대한 정보(이름, 성별, 이미지 등)를 저장하여 예약할 때 업주에게 강아지 정보를 보낼 수 있습니다.
-![강아지카드 생성수정삭제](https://user-images.githubusercontent.com/96187152/225940263-eb05fb99-d0ce-4572-a81c-4e14029ff008.gif)
-
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/225940263-eb05fb99-d0ce-4572-a81c-4e14029ff008.gif" width="600" alt="logo"/>
+</div>
+<br>
 ✅ [3] 호텔 홍보글 업로드/수정/삭제 : 호텔 이미지/홍보글을 업로드/수정/삭제 할 수 있습니다.
-![글쓰기 작성부분](https://user-images.githubusercontent.com/96187152/225941250-a8e7abc5-f823-4b24-aba3-ece3d5221d8b.gif)
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/225941250-a8e7abc5-f823-4b24-aba3-ece3d5221d8b.gif" width="600" alt="logo"/>
+</div>
+<br>
 
 ✅ [4] 호텔 예약 : 해당 날짜에 예약가능 여부를 확인 후, 예약을 진행할 수 있습니다. 예약할 강아지의 정보를 호텔 측에 같이 넘깁니다.
-![예약하기](https://user-images.githubusercontent.com/96187152/225942137-ea86f706-5560-4534-a489-2f78177aa2a9.gif)
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/225942137-ea86f706-5560-4534-a489-2f78177aa2a9.gif" width="600" alt="logo"/>
+</div>
+<br>
 
 
