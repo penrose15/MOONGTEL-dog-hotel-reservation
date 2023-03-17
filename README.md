@@ -21,7 +21,7 @@
 
 | Front-End | Back-End | DataBase | DevOps | Tool |
 | --- | --- | --- | --- | --- |
-| Next.js<br>React<br>TypeScript<br>styled-components<br>recoil | java<br>spring boot<br>spring security<br>jpa<br>java<br>jwt<br>queryDSL<br> | Mysql | Aws(EC2, RDS, S3), Jenkins | Git<br>Discord<br>Notion<br>Postman |
+| Next.js<br>React<br>TypeScript<br>styled-components<br>recoil | java<br>spring boot<br>spring security<br>jpa<br>java<br>jwt<br>queryDSL<br> | Mysql | Aws(EC2, RDS, S3)<br> Jenkins | Git<br>Discord<br>Notion<br>Postman |
 
 
 
