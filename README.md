@@ -89,4 +89,32 @@ ghksals09041@gmail.com|suji.sujeongji@gmail.com|hsj99215@gmail.com|moodeary@gmai
 </div>
 <br>
 
+✅ [5] 리뷰작성/수정/삭제 : 갔다온 호텔에 대해 리뷰를 작성할 수 있으며, 별점과 이미지 또한 업로드 할 수 있습니다. 별점은 메인페이지 호텔 정렬에 반영됩니다.
+<div align="left" style="display:flex;">
+<img src="https://user-images.githubusercontent.com/96187152/225944343-bb30cdd3-d484-406b-b20e-6fabbf2a7606.gif" width="600" alt="logo"/>
+</div>
+<br>
 
+✅ [6] 업체 마이페이지 : 업체의 정보, 업체의 홍보글, 업체에 예약된 내역에 대해 확인할 수 있으며, 예약 수락/거절을 할 수 있습니다.
+<div align="left" style="display:flex;">
+<img src="https://user-images.githubusercontent.com/96187152/225945108-7233d5a5-f157-4a32-a28a-3991d61597d8.gif" width="600" alt="logo"/>
+</div>
+<br>
+
+✅ [7] 메인 페이지 : 강아지 호텔 리스트를 별점 순으로 나열하였습니다.
+<div align="left" style="display:flex;">
+<img src="https://user-images.githubusercontent.com/96187152/225949097-380bc3bc-7c62-4156-a3e3-1e05d3db26cf.gif" width="600" alt="logo"/>
+</div>
+<br>
+
+✅ [8] 상세 페이지 조회 - 이미지 : 호텔에 대한 정보(이미지, 지도, 이용 가능한 서비스 등)를 조회할 수 있습니다.
+<div align="left" style="display:flex;">
+<img src="https://user-images.githubusercontent.com/96187152/225954190-f66e391d-7ded-4986-904a-ef5e5dfaf32a.gif" width="600" alt="logo"/>
+</div>
+<br>
+
+✅ [9] 태그 검색, 일반 검색 : 태그 검색과 제목/본문 검색이 가능합니다.
+<div align="left" style="display:flex;">
+<img src="https://user-images.githubusercontent.com/96187152/225954915-f5a4122e-f217-49a3-bfad-46417600163b.gif" width="600" alt="logo"/>
+</div>
+<br>
