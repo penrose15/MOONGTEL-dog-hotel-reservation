@@ -68,7 +68,9 @@ ghksals09041@gmail.com|suji.sujeongji@gmail.com|hsj99215@gmail.com|moodeary@gmai
 
 
 ✅ [1] 회원가입 & 로그인 : JWT 토큰 인증 방식을 사용하여 구현하였습니다.
-![회원가입](https://user-images.githubusercontent.com/96187152/225938078-002eaffe-4623-49c5-9d65-39aad824858a.gif)
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/225938078-002eaffe-4623-49c5-9d65-39aad824858a.gif" width="600" alt="logo"/>
+</div>
 
 ✅ [2] 강아지 카드 등록/수정/삭제 : 회원의 강아지에 대한 정보(이름, 성별, 이미지 등)를 저장하여 예약할 때 업주에게 강아지 정보를 보낼 수 있습니다.
 ![강아지카드 생성수정삭제](https://user-images.githubusercontent.com/96187152/225940263-eb05fb99-d0ce-4572-a81c-4e14029ff008.gif)
