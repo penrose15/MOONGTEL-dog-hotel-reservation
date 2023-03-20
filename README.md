@@ -6,6 +6,9 @@
   <img width="1000" alt="Screen Shot 2022-09-18 at 2 14 10 AM" src="https://user-images.githubusercontent.com/55401378/190868726-9b9b0529-f8e7-4c15-b6f0-23987f5f0230.png">
 </div>
 
+## 🌟 기간
+2022.09 ~  2022.10 (1달) 
+2023.03 ~ : 2.0v 개발 진행 중
 
 <br>
 <br>
