@@ -9,7 +9,7 @@
 ## 🌟 기간
 2022.09 ~  2022.10 (1달) 
 
-2023.03 ~ : [2.0v 개발 진행 중](https://github.com/penrose15/MOONGTEL-dog-hotel-reservation-v2.0)
+2023.03 ~ 04 : [2.0v 으로 리팩토링](https://github.com/penrose15/MOONGTEL-dog-hotel-reservation-v2.0)
 
 <br>
 <br>
