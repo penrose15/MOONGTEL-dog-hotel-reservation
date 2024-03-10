@@ -41,6 +41,7 @@ public class PostsCreateService {
 
         savePostsHashTags(postsCreateDto, posts);
         savePostsServiceTag(postsCreateDto, posts);
+        saveRoom(postsCreateDto, posts.getId());
 
     }
 

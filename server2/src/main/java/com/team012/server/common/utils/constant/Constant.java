@@ -4,6 +4,7 @@ public enum Constant {
     DELETE_RESERVATION_SUCCESS("예약 삭제 성공"),
     UNDEFINED("미정"),
     CONFIRM("확정"),
+    FINISHED("나감"),
     ROLE_COMPANY("ROLE_COMPANY"),
     ROLE_CUSTOMER("ROLE_CUSTOMER"),
 

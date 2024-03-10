@@ -34,7 +34,7 @@ public class RoomService {
             roomList.add(room1);
         }
 
-        roomJDBCRepository.batchInsert(roomList);
+        roomRepository.saveAll(roomList);
     }
 
     public List<Room> updateRoomList(List<RoomCreateDto> roomDto, Long postsId) {

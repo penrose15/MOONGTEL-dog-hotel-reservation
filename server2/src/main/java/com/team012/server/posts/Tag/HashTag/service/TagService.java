@@ -44,7 +44,7 @@ public class TagService {
             postsHashTags.add(postsHashTag);
         }
         posts.setPostsHashTags(postsHashTags);
-        postsHashTagJDBCRepository.batchInsert(postsHashTags);
+        postsHashTagRepository.saveAll(postsHashTags);
     }
 
 

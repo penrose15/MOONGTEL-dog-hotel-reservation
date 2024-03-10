@@ -16,6 +16,7 @@ import java.util.List;
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+@Table(name = "reservation", indexes = {@Index(name = "idx_check_in", columnList = "check_in")})
 public class Reservation {
     @PrePersist
     public void prePersist() {

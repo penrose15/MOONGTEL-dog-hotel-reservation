@@ -13,7 +13,7 @@ import java.util.Set;
 @Component
 public class AvailableReservationHelper {
 
-    //선택한 날짜사이에 예약되어 있는 최대 강아지 수
+    //선택한 날짜사이에 예약되어 있는 최대 강아지 수 + 사용자가 예약하려는 강아지 수와 호텔의 수용 가능 강아지 수 비교
     public Integer occupiedRoomCount(List<Reservation>reservations,
                                       String roomName,
                                       LocalDate checkInDate,

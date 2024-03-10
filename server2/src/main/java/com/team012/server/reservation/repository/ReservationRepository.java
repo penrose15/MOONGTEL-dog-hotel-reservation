@@ -31,6 +31,6 @@ public interface ReservationRepository extends JpaRepository<Reservation, Long> 
 
     @Query("select " +
             " r from Reservation r " +
-            " where r.companyId = :companyId")
+            " where r.companyId = :companyId and r.checkInDate >= :checkOut and r.status = :확정")
     List<Reservation> findByCheckInCheckOut(Long companyId);
 }

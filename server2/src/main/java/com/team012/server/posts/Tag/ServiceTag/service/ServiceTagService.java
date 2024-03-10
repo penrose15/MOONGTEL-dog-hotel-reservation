@@ -43,7 +43,7 @@ public class ServiceTagService {
             postsAvailableTags.add(postsServiceTag);
         }
         posts.setPostAvailableTags(postsAvailableTags);
-        postsServiceTagJDBCRepository.batchInsert(postsAvailableTags);
+        postsServiceTagRepository.saveAll(postsAvailableTags);
     }
     public void deleteAllServiceTag(Long postsId) {
         List<PostsServiceTag> postsTags = postsServiceTagRepository.findByPostsId(postsId);

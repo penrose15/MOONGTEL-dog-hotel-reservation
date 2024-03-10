@@ -24,7 +24,6 @@ import static com.team012.server.common.exception.ExceptionCode.CHOOSE_YOUR_CORR
 @Service
 @Slf4j
 public class DogCardService {
-
     private final DogCardRepository dogCardRepository;
     private final AwsS3Service awsS3Service;
 
