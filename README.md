@@ -6,6 +6,10 @@
   <img width="1000" alt="Screen Shot 2022-09-18 at 2 14 10 AM" src="https://user-images.githubusercontent.com/55401378/190868726-9b9b0529-f8e7-4c15-b6f0-23987f5f0230.png">
 </div>
 
+## 🌟 기간
+2022.09 ~  2022.10 (1달) 
+
+2023.03 ~ 04 : [2.0v 으로 리팩토링](https://github.com/penrose15/MOONGTEL-dog-hotel-reservation-v2.0)
 
 <br>
 <br>
@@ -17,26 +21,13 @@
 
 <br>
 
-## 🌟 FE 기술 스택
+## 🌟 사용 기술
 
-<div align="left" style="display:flex;">
-    <img src="https://user-images.githubusercontent.com/65848374/190868327-d98f8151-0fff-4dba-b220-c34f041aedb7.jpg" width="600" alt="logo"/>
-</div>
-<br>
+| Front-End | Back-End | DataBase | DevOps | Tool |
+| --- | --- | --- | --- | --- |
+| Next.js<br>React<br>TypeScript<br>styled-components<br>recoil | java<br>spring boot<br>spring security<br>jpa<br>java<br>jwt<br>queryDSL<br> | Mysql | Aws(EC2, RDS, S3)<br> Jenkins | Git<br>Discord<br>Notion<br>Postman |
 
-## 🌟 BE 기술 스택
-<div align="left" style="display:flex;">
-    <img src="https://user-images.githubusercontent.com/96187152/214508878-38ffa593-71f2-4907-87fd-425bff6fd838.jpg" width="600" alt="logo"/>
-</div>
 
-<br>
-
-## 🌟 배포
-<div align="left" style="display:flex;">
-    <img src="https://user-images.githubusercontent.com/96187152/214510070-f5e7c0d3-a2c3-4636-a679-d4a0b96d9123.jpg" width="600" alt="logo"/>
-</div>
-
-<br>
 
 ## 🌟 프로젝트 구조
 <div align="left" style="display:flex;">
@@ -72,10 +63,72 @@
 ![JHM](https://avatars.githubusercontent.com/u/65848374?s=150&v=4)|![JSJ](https://avatars.githubusercontent.com/u/55401378?s=150&v=4)|![HSJ](https://avatars.githubusercontent.com/u/96187152?s=150&v=4)|![HBS](https://avatars.githubusercontent.com/u/101438447?s=150&v=4)| ![LDJ](https://avatars.githubusercontent.com/u/81212210?s=150&v=4)
 [JEONGHWANMIN](https://github.com/JEONGHWANMIN)|[bruadarach](https://github.com/bruadarach)|[penrose15](https://github.com/penrose15)|[moodeary](https://github.com/moodeary)|[DZOOOOO](https://github.com/DZOOOOO)
 ghksals09041@gmail.com|suji.sujeongji@gmail.com|hsj99215@gmail.com|moodeary@gmail.com|dzpro0327@naver.com
-프론트엔드|프론트엔드|백엔드|백엔드|팀장, 백엔드
+프론트엔드|프론트엔드|백엔드|백엔드|백엔드
 
 
 <br>
 
+## 🌟 실행 화면
 
 
+✅ [1] 회원가입 & 로그인 : JWT 토큰 인증 방식을 사용하여 구현하였습니다.
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/225938078-002eaffe-4623-49c5-9d65-39aad824858a.gif" width="600" alt="logo"/>
+</div>
+<br>
+✅ [2] 강아지 카드 등록/수정/삭제 : 회원의 강아지에 대한 정보(이름, 성별, 이미지 등)를 저장하여 예약할 때 업주에게 강아지 정보를 보낼 수 있습니다.
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/225940263-eb05fb99-d0ce-4572-a81c-4e14029ff008.gif" width="600" alt="logo"/>
+</div>
+<br>
+✅ [3] 호텔 홍보글 업로드/수정/삭제 : 호텔 이미지/홍보글을 업로드/수정/삭제 할 수 있습니다.
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/225941250-a8e7abc5-f823-4b24-aba3-ece3d5221d8b.gif" width="600" alt="logo"/>
+</div>
+<br>
+
+✅ [4] 호텔 예약 : 해당 날짜에 예약가능 여부를 확인 후, 예약을 진행할 수 있습니다. 예약할 강아지의 정보를 호텔 측에 같이 넘깁니다.
+<div align="left" style="display:flex;">
+    <img src="https://user-images.githubusercontent.com/96187152/225942137-ea86f706-5560-4534-a489-2f78177aa2a9.gif" width="600" alt="logo"/>
+</div>
+<br>
+
+✅ [5] 리뷰작성/수정/삭제 : 갔다온 호텔에 대해 리뷰를 작성할 수 있으며, 별점과 이미지 또한 업로드 할 수 있습니다. 별점은 메인페이지 호텔 정렬에 반영됩니다.
+<div align="left" style="display:flex;">
+<img src="https://user-images.githubusercontent.com/96187152/225944343-bb30cdd3-d484-406b-b20e-6fabbf2a7606.gif" width="600" alt="logo"/>
+</div>
+<br>
+
+✅ [6] 업체 마이페이지 : 업체의 정보, 업체의 홍보글, 업체에 예약된 내역에 대해 확인할 수 있으며, 예약 수락/거절을 할 수 있습니다.
+<div align="left" style="display:flex;">
+<img src="https://user-images.githubusercontent.com/96187152/225945108-7233d5a5-f157-4a32-a28a-3991d61597d8.gif" width="600" alt="logo"/>
+</div>
+<br>
+
+✅ [7] 메인 페이지 : 강아지 호텔 리스트를 별점 순으로 나열하였습니다.
+<div align="left" style="display:flex;">
+<img src="https://user-images.githubusercontent.com/96187152/225949097-380bc3bc-7c62-4156-a3e3-1e05d3db26cf.gif" width="600" alt="logo"/>
+</div>
+<br>
+
+✅ [8] 상세 페이지 조회 - 이미지 : 호텔에 대한 정보(이미지, 지도, 이용 가능한 서비스 등)를 조회할 수 있습니다.
+<div align="left" style="display:flex;">
+<img src="https://user-images.githubusercontent.com/96187152/225954190-f66e391d-7ded-4986-904a-ef5e5dfaf32a.gif" width="600" alt="logo"/>
+</div>
+<br>
+
+✅ [9] 태그 검색, 일반 검색 : 태그 검색과 제목/본문 검색이 가능합니다.
+<div align="left" style="display:flex;">
+<img src="https://user-images.githubusercontent.com/96187152/225954915-f5a4122e-f217-49a3-bfad-46417600163b.gif" width="600" alt="logo"/>
+</div>
+<br>
+
+## Contribution
+- [x] Backend
+  - ERD 설계
+  - 호텔 홍보글 업로드/수정/조회/삭제
+  - AWS S3에 이미지 업로드/조회를 통해 서버 트래픽 분산
+  - 날짜 선택시 예약 가능 여부 확인하는 비즈니스 로직 구현
+  - AWS(EC2, RDS, S3)를 활용하여 서버 배포
+  - CI/CD 구축
+    - Git push시 Jenkins를 통하여 CI/CD 구축
