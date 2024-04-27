@@ -122,13 +122,3 @@ ghksals09041@gmail.com|suji.sujeongji@gmail.com|hsj99215@gmail.com|moodeary@gmai
 <img src="https://user-images.githubusercontent.com/96187152/225954915-f5a4122e-f217-49a3-bfad-46417600163b.gif" width="600" alt="logo"/>
 </div>
 <br>
-
-## Contribution
-- [x] Backend
-  - ERD 설계
-  - 호텔 홍보글 업로드/수정/조회/삭제
-  - AWS S3에 이미지 업로드/조회를 통해 서버 트래픽 분산
-  - 날짜 선택시 예약 가능 여부 확인하는 비즈니스 로직 구현
-  - AWS(EC2, RDS, S3)를 활용하여 서버 배포
-  - CI/CD 구축
-    - Git push시 Jenkins를 통하여 CI/CD 구축
