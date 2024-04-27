@@ -122,3 +122,28 @@ ghksals09041@gmail.com|suji.sujeongji@gmail.com|hsj99215@gmail.com|moodeary@gmai
 <img src="https://user-images.githubusercontent.com/96187152/225954915-f5a4122e-f217-49a3-bfad-46417600163b.gif" width="600" alt="logo"/>
 </div>
 <br>
+
+---
+
+### 비즈니스 로직 개발
+- 호텔 홍보글 등록/조회 개발
+  - [S3을 활용한 이미지 업로드/조회 기능 개발](https://velog.io/@penrose_15/SpringBoot%EB%A1%9C-aws-S3%EC%97%90-%EC%82%AC%EC%A7%84-%EC%97%85%EB%A1%9C%EB%93%9C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
+  - [S3 이미지 업로드 시 발생한 메모리 경고 해결](https://velog.io/@penrose_15/No-content-length-specified-for-stream-data.-Stream-contents-will-be-buffered-in-memory-and-could-result-in-out-of-memory-errors.-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0%EB%B2%95)
+  - [JPA의 Identity 전략 환경에서 Batch Insert 구현하기](https://velog.io/@penrose_15/MySQL%EC%97%90%EC%84%9C-Bulk-Insert%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EB%BB%98%EC%A7%93-%EB%AA%A8%EC%9D%8C)
+  - QueryDSL로 검색 기능 구현
+  
+- 예약 시스템 개발
+  - [예약 서비스 DB 스키마 및 비즈니스 로직 개선기](https://velog.io/@penrose_15/reservation-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84-%EC%A4%91-%EB%A7%88%EC%A3%BC%EC%B9%9C-%EB%AC%B8%EC%A0%9C%EC%99%80-%ED%95%B4%EA%B2%B0%EA%B3%BC%EC%A0%95)
+ 
+### 코드 개선을 위한 지속적인 리팩토링
+- [DTO 변환을 위한 Mapper 계층 생성](https://velog.io/@penrose_15/jpa-repository-%EC%82%AC%EC%9A%A9-%EC%8B%9C-DTO%EB%A1%9C-%EC%A1%B0%ED%9A%8C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
+- [@RestControllerAdvice를 활용한 전역 예외 처리를 통해 예외처리로직과 비즈니스 로직 분리](https://velog.io/@penrose_15/RestControllerAdvice)
+
+### CI/CD
+- Jenkins기반 CI/CD 구축
+  - Github hook로 git push시 CI/CD 시작하도록 트리거 설정
+ 
+### 이외의 이슈 해결
+- Controller에서 Response를 Entity 대신 DTO로 변환하여 순환참조 이슈 해결
+- Setter 제거로 객체 불변성 보장
+- @RestControllerAdvice를 활용한 예외 전역 처리로 예외 처리로직과 비즈니스 로직 기능 구현
